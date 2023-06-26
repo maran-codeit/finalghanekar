@@ -2,7 +2,7 @@
 
 Console.WriteLine("Enter the N value : ");
 float N= Convert.ToSingle(Console.ReadLine());
-Console.WriteLine("Enter M value : ");
+Console.WriteLine("Enter the M value : ");
 float M = Convert.ToSingle(Console.ReadLine());
 Console.WriteLine("Enter C value : ");
 float c= Convert.ToSingle(Console.ReadLine());
