@@ -1,6 +1,6 @@
 ﻿using Finalghanekar;
 
-Console.WriteLine("Enter N value : ");
+Console.WriteLine("Enter the N value : ");
 float N= Convert.ToSingle(Console.ReadLine());
 Console.WriteLine("Enter M value : ");
 float M = Convert.ToSingle(Console.ReadLine());
