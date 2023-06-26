@@ -1,0 +1,97 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.7.1" />
+    <PackageReference Include="Microsoft.ML.FastTree" Version="1.7.1" />
+    <PackageReference Include="Microsoft.ML.LightGbm" Version="1.7.1" />
+  </ItemGroup>
+  <ItemGroup Label="g0_05">
+    <None Include="g0_05.consumption.cs">
+      <DependentUpon>g0_05.mbconfig</DependentUpon>
+    </None>
+    <None Include="g0_05.training.cs">
+      <DependentUpon>g0_05.mbconfig</DependentUpon>
+    </None>
+    <None Include="g0_05.zip">
+      <DependentUpon>g0_05.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="g0_1">
+    <None Include="g0_1.consumption.cs">
+      <DependentUpon>g0_1.mbconfig</DependentUpon>
+    </None>
+    <None Include="g0_1.training.cs">
+      <DependentUpon>g0_1.mbconfig</DependentUpon>
+    </None>
+    <None Include="g0_1.zip">
+      <DependentUpon>g0_1.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="g0_15">
+    <None Include="g0_15.consumption.cs">
+      <DependentUpon>g0_15.mbconfig</DependentUpon>
+    </None>
+    <None Include="g0_15.training.cs">
+      <DependentUpon>g0_15.mbconfig</DependentUpon>
+    </None>
+    <None Include="g0_15.zip">
+      <DependentUpon>g0_15.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="g0_2">
+    <None Include="g0_2.consumption.cs">
+      <DependentUpon>g0_2.mbconfig</DependentUpon>
+    </None>
+    <None Include="g0_2.training.cs">
+      <DependentUpon>g0_2.mbconfig</DependentUpon>
+    </None>
+    <None Include="g0_2.zip">
+      <DependentUpon>g0_2.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="g0_0501">
+    <None Include="g0_0501.consumption.cs">
+      <DependentUpon>g0_0501.mbconfig</DependentUpon>
+    </None>
+    <None Include="g0_0501.training.cs">
+      <DependentUpon>g0_0501.mbconfig</DependentUpon>
+    </None>
+    <None Include="g0_0501.zip">
+      <DependentUpon>g0_0501.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="g01015">
+    <None Include="g01015.consumption.cs">
+      <DependentUpon>g01015.mbconfig</DependentUpon>
+    </None>
+    <None Include="g01015.training.cs">
+      <DependentUpon>g01015.mbconfig</DependentUpon>
+    </None>
+    <None Include="g01015.zip">
+      <DependentUpon>g01015.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="g015020">
+    <None Include="g015020.consumption.cs">
+      <DependentUpon>g015020.mbconfig</DependentUpon>
+    </None>
+    <None Include="g015020.training.cs">
+      <DependentUpon>g015020.mbconfig</DependentUpon>
+    </None>
+    <None Include="g015020.zip">
+      <DependentUpon>g015020.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
